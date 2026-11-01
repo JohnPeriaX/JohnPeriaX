@@ -1,176 +1,89 @@
-﻿# JohnPeriaX
+# JohnPeriaX · Thai Digital Realm
 
-<p align="center">
-  <strong>JOHN PERIA</strong><br>
-  Developer · Software Builder · AI Vibe Coder
-</p>
+> **นักพัฒนาซอฟต์แวร์จากประเทศไทย · Thai Developer / Software Builder**
+>
+> A Thai-inspired developer portfolio where modern software interfaces meet **Ramakien-inspired visual language**, Hanuman, Naga, Garuda, Thai ornament, and AI-assisted development.
 
-<p align="center">
-  Building software, launchers, tools, Android projects, web apps, and experiments.
-</p>
+## ✦ Identity
 
-<p align="center">
-  <a href="https://github.com/JohnPeriaX?tab=repositories">Repositories</a> ·
-  <a href="https://github.com/JohnPeriaX?tab=projects">Projects</a> ·
-  <a href="https://github.com/JohnPeriaX?tab=followers">Followers</a>
-</p>
+**สร้างจากประเทศไทย · Built from Thailand.**
 
----
+This portfolio is designed as a personal digital world for JohnPeriaX, combining:
 
-## `whoami`
+- 🇹🇭 Thai typography and bilingual Thai / English content
+- 🐒 Original Hanuman-inspired digital illustration
+- 🐉 Naga-inspired data-flow and section motifs
+- 🦅 Garuda-inspired open-source emblem
+- 🟡 Antique gold, maroon, jade, ivory, and charcoal visual system
+- 💻 Developer workstation, terminal, launcher, Android, and AI-coding interfaces
 
-```text
-$ whoami
-JohnPeriaX
+The mythology is an original visual interpretation inspired by Thai cultural language, not a copy of existing artwork.
 
-$ role
-Developer / Software Builder
+## 🛠️ Stack
 
-$ currently
-Building • Learning • Experimenting • Shipping
+- **Web:** HTML, CSS, JavaScript, TypeScript, React, Tailwind CSS
+- **Application:** C#, .NET, Electron, Node.js
+- **Android:** Java, Kotlin, Android SDK, Gradle, JNI / NDK
+- **Native:** C, C++, SQLite, REST APIs
+- **Tools:** VS Code, Git, GitHub, Terminal, GitHub Actions
+- **AI:** AI-assisted coding, code generation, refactoring, prompt-driven development
+- **REA:** Binary analysis, debugging, protocol research, runtime inspection
 
-$ workflow
-Idea → AI Assist → Code → Test → Fix → Ship
+## 🚀 Run locally
+
+Requirements: Node.js and pnpm.
+
+```bash
+pnpm install
+pnpm dev
 ```
 
-I like building things that are useful, interesting, or simply worth experimenting with.
-I work across different technologies depending on what each project needs, from web and desktop software to Android, launchers, developer tools, and small experiments.
+Open `http://localhost:3000`.
 
----
+For a production check:
 
-## `stack`
-
-### Web
-`HTML` `CSS` `JavaScript` `TypeScript` `React` `Tailwind CSS`
-
-### Applications & Tools
-`C#` `.NET` `Node.js` `Electron` `VS Code`
-
-### Android
-`Java` `Kotlin` `Android SDK` `Gradle` `JNI` `NDK`
-
-### Native & Other
-`C` `C++` `Python` `Git` `GitHub` `JSON` `SQLite`
-
-> I don't try to use every technology at once. I learn what the project needs and build from there.
-
----
-
-## `ai vibe coding`
-
-AI is part of my development workflow, not a replacement for understanding the code.
-
-```text
-┌──────────────────────────────────────────────┐
-│              AI CODING WORKFLOW              │
-├──────────────────────────────────────────────┤
-│                                              │
-│  IDEA                                        │
-│   ↓                                          │
-│  AI ASSIST  → explore / generate / explain   │
-│   ↓                                          │
-│  PROTOTYPE                                   │
-│   ↓                                          │
-│  TEST                                        │
-│   ↓                                          │
-│  DEBUG / REFACTOR                            │
-│   ↓                                          │
-│  SHIP                                        │
-│                                              │
-└──────────────────────────────────────────────┘
+```bash
+pnpm build
+pnpm start
 ```
 
-I use AI to prototype ideas faster, understand unfamiliar code, debug problems, refactor, and explore different approaches while keeping the final decisions in my hands.
-
----
-
-## `things i build`
-
-| Area | What I work on |
-|---|---|
-| 🌐 Web | Websites, React apps, utilities and experiments |
-| 🚀 Launchers | Launchers, management tools and related software |
-| 📱 Android | Android apps, utilities and native experiments |
-| 🧩 Developer Tools | VS Code projects, scripts and productivity tools |
-| 🖥️ Desktop | C# / .NET applications and utilities |
-| 🧪 Experiments | Small projects for learning and testing ideas |
-
----
-
-## `selected projects`
-
-### 2.10-OpenSource
-Open-source work around the SA-MP / GTA mobile ecosystem.
-
-### NexusMP-Launcher
-A launcher-focused project for managing and starting software.
-
-### pawn-forge-zed
-A development tool / editor project for Pawn-related work.
-
-### samp-mobile-2.11.311
-An open-source project related to SA-MP mobile development.
-
-> Projects change over time. Some are polished, some are experiments, and some exist because I wanted to find out how something works.
-
----
-
-## `developer environment`
+## 📁 Source
 
 ```text
-WORKSPACE
+app/
+├── globals.css       # Thai typography + visual system
+├── layout.tsx        # App metadata / layout
+└── page.tsx          # Portfolio entry point
 
-  VS Code
-  ├── Web
-  ├── React
-  ├── C# / .NET
-  ├── Tools
-  ├── Launchers
-  └── Experiments
+components/
+├── portfolio.tsx     # Portfolio sections and visual components
+└── ui/
+    └── button.tsx    # Reusable UI component
 
-  Android Studio
-  ├── Kotlin
-  ├── Java
-  ├── Gradle
-  └── NDK / JNI
+lib/
+└── utils.ts          # Shared utilities
 
-  Terminal
-  ├── Git
-  ├── GitHub
-  └── Build / Test / Ship
+public/
+└── ...               # Static assets
 ```
 
----
+## 🎨 Design language
 
-## `github`
+**Thai mythology × software engineering × digital illustration**
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=JohnPeriaX&show_icons=true&hide_border=true&theme=transparent&title_color=ffffff&text_color=8f8f8f&icon_color=7aa2f7" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JohnPeriaX&layout=compact&hide_border=true&theme=transparent&title_color=ffffff&text_color=8f8f8f" height="165" />
-</p>
+The interface intentionally avoids a generic cyberpunk or corporate portfolio style. Thai visual elements are translated into modern UI patterns, SVG illustration, typography, borders, motion, and developer tooling rather than being used as decorative flags or tourism imagery.
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=JohnPeriaX&bg_color=0d1117&color=8f8f8f&line=7aa2f7&point=ffffff&area=true&hide_border=true" width="95%" alt="GitHub contribution graph" />
-</p>
+## 🤖 AI-assisted workflow
 
----
-
-## `philosophy`
+AI is treated as a development companion for exploring ideas, prototyping, understanding unfamiliar code, reviewing layouts, debugging, and moving toward working software. Final decisions, review, and testing remain with the developer.
 
 ```text
-Build something.
-Break something.
-Figure out why.
-Fix it.
-Learn something.
-Build again.
+IDEA → AI ASSIST → CODE → REVIEW → TEST → SHIP
+ไอเดีย → ช่วยคิด → เขียนโค้ด → ตรวจสอบ → ทดสอบ → ปล่อยงาน
 ```
 
-No perfect stack. No perfect project. Just keep building.
+## 📌 Note
 
----
+This repository contains the **actual Next.js source code** for the portfolio, not a screenshot or static mockup.
 
-<p align="center">
-  <sub>JohnPeriaX · Developer · Thailand 🇹🇭</sub><br>
-  <sub>Build · Experiment · Learn · Ship</sub>
-</p>
+**สร้าง · ทดลอง · เรียนรู้ · ปล่อยงาน**
